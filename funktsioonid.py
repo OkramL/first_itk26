@@ -48,5 +48,6 @@ Väljasta kõik nimed listist names, mis on täpselt
 4 märki pikad.
 """
 for name in names:
-    if len(name.strip()) == 4:
-        print(name.strip())
+    name = name.strip()
+    if len(name) == 4:
+        print(name)
